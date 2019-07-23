@@ -59,6 +59,8 @@ class Game {
             displayText = 'You Win!';
         } else if (this.pastGuesses.includes(this.playersGuess)) {
             displayText = 'You have already guessed that number.';
+            document.querySelector(`#displayText`).innerHTML = displayText;
+            return displayText;
         } else {
             this.pastGuesses.push(guess);
             if (this.pastGuesses.length === 5) {
