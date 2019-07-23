@@ -1,0 +1,52 @@
+/* Write your CSS code in this file */
+body {
+    margin: auto;
+    max-width: 640px;
+}
+.form {
+    font-family: helvetica;
+    font-size: 14px;
+    color: darkcyan;
+    background-color: palegoldenrod;
+    width: 600px;
+    height: 100px;
+    border: dotted 4px pink;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-family: helvetica;
+    color: darkslateblue;
+    width: 640px;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+.guesses {
+    font-family: helvetica;
+    color: palevioletred;
+    width: 70px;
+    position: relative;
+    left: 270px;
+    text-align: center;
+}
+
+h4 {
+    font-family: helvetica;
+    color: rgb(38, 118, 184);
+    width: auto;
+    text-align: center;
+}
+
+#displayText {
+    color: darkorchid;
+    border: groove;
+    border-color: rgba(234, 235, 147, 0.938);
+    padding: 5px;
+}
+
+li { 
+    float: center; 
+    list-style-type: square; 
+    padding: 5px; 
+}
